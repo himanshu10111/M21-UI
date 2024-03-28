@@ -1,0 +1,50 @@
+:root{
+    --bs-danger-rgb:250,230,230!important;
+    --bs-secondary-rgb:242, 242, 242 !important;
+    
+}
+
+.nav-tabs .nav-link{
+    border: none;
+    
+}
+.nav-link{
+    color:black !important;
+    border-bottom:1px solid #b5b9b9!important;
+}
+
+.nav-link:hover, .nav-link:focus{
+    color:red;
+}
+.nav-link.active{
+    
+    font-weight: 700;
+    border-bottom:6px solid #0099ff!important;
+}
+
+.modal-sm {
+    width: 400px;
+  }
+
+  .figure-caption {
+    font-size: 0.875em;
+    color: #474849 !important;
+  }
+  
+  input.active{
+    border:1px solid #0c63e4 !important;
+    box-shadow: 0px; 
+    background-color: white !important;
+  }
+  input .selected{
+background-color: white;
+  }
+
+  .form-control:focus{
+    border-color: blue !important;
+    box-shadow: none !important;
+    background-color: white !important;
+  }
+  .modal{
+    --bs-modal-border-radius:0px !important;
+  }

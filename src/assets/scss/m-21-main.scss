@@ -1,0 +1,317 @@
+@import "variable.scss";
+
+body {
+
+  background-color: $page-background-color;
+  // overflow-x: hidden;
+  // overflow-y: hidden;
+}
+
+
+
+
+/*
+  Color scheme of the project 
+*/
+
+.login-menu {
+  --bs-gray-500: #adb5bd;
+  background-color: #adb5bd !important;
+}
+
+.bg-constitution {
+  background-image: url("../img/constitution.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+.Ri-text-color-main-menu {
+  color: $text-main-head-color !important;
+}
+
+.Ri-text-color-sub-menu {
+  color: $text-sub-head-color !important;
+}
+
+.Ri-text-head-mob{
+  color: $text-mob-head-color !important;
+}
+
+.Ri-edit-mob-text-color{
+  color: $mob-edit-color !important;
+}
+
+.title-text-color {
+  color: #007DAA !important;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+::placeholder {
+  font-size: 12px;
+  color: $text-sub-head-color !important;
+  font-weight: 400;
+}
+
+/*
+  HEADER SCSS
+*/
+
+
+.bg-profile {
+  background-color: #F2FCFF;
+
+}
+
+
+/*
+  BODY CONTENT  SCSS
+*/
+.font-size-11 {
+  font-size: $fxs !important;
+}
+
+.font-size-12 {
+  font-size: $fsm !important;
+
+  line-height: 13.8px !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-size-13 {
+  font-size: $fmsd !important;
+  line-height: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-size-14 {
+  font-size: $fmd !important;
+  font-weight: 700 !important;
+  line-height: 16.1px !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-size-10 {
+  font-size: $fxsm !important;
+
+  line-height: 11.5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-size-16 {
+  font-size: $fslg !important;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 18.4px;
+}
+
+.font-size-18{
+  font-size: $flg !important;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.font-size-20{
+  font-size: $fxlg !important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.css-dip3t8 {
+  background-color: $bg-sidebar !important;
+}
+
+// .form-label {
+//   font-size: $fmd !important
+// }
+
+.Ri-container {
+  width: $page-size-width;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+
+/*
+  FOOTER SECTION SCSS
+*/
+
+@media (min-width: 768px) {
+  body {
+    // background-image: url("../img/constitution.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+}
+
+
+//Tab css
+.nav-tabs .nav-link {
+  border: none !important;
+  border-bottom: 0px solid #b5b9b900 !important;
+
+}
+
+.nav-link {
+  // color: #007DAA !important;
+  // font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-item>#uncontrolled-tab-example-tab-EnterWithPassword {
+  color: $text-sub-head-color ;
+}
+
+.nav-item>#uncontrolled-tab-example-tab-EnterOtp {
+  color: $text-sub-head-color ;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: red;
+}
+
+.nav-link.active {
+
+
+  border-bottom: 3px solid #007DAA !important;
+  background-color: transparent !important;
+  color: $text-main-head-color !important;
+  font-weight: 700;
+}
+
+// .nav-link>active>#PersonalDetails{
+//   color:$primary-color;
+// }
+
+// .nav-link>#PersonalDetails{
+//   color: #007DAA !important;
+// }
+
+
+
+
+
+
+
+
+.figure-caption {
+  font-size: 0.875em !important;
+  color: #474849 !important;
+}
+
+
+.dropdown-menu.show {
+  display: block;
+  border: none;
+}
+
+input.active {
+  border: 1px solid #007DAA !important;
+  box-shadow: 0px;
+  background-color: white !important;
+}
+
+input .selected {
+  background-color: white;
+}
+
+.form-control:focus {
+  border-color: #007DAA !important;
+  box-shadow: none !important;
+  background-color: white !important;
+}
+
+.modal {
+  --bs-modal-border-radius: 0px !important;
+}
+
+.sidebar-shadow {
+  box-shadow: 4px 0px 4px 0px rgb(0 0 0 / 15%) !important;
+}
+
+.dropdown-toggle::after {
+  /* display: inline-block; */
+  float: right !important;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid transparent;
+  border-right: 0;
+  border-bottom: 0.3em solid transparent;
+  border-left: 0.3em solid;
+
+}
+
+.dropdown-item:active {
+  color: #000;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+
+
+
+
+
+.tab-active :focus {
+  color: rgb(127, 243, 123) !important;
+}
+
+.M21-btn>Button {
+  background-color: #007DAA !important;
+}
+.m21-btn-disabled>Button{
+  background-color: #6c757d !important ;
+  border: #6c757d !important;
+}
+
+.bg-SideBar {
+  background-color: #102031 !important;
+}
+
+.login-w {
+  width: 360px !important;
+  height: 591px !important;
+}
+
+.bg-body-form {
+  background-color: #30a4ca;
+}
+
+.text-sidebar {
+  color: #03BCFF;
+
+}
+
+.popover-custom-size {
+  max-width: 450px !important;
+}
+
+
+
+
+.alertNotification {
+  animation: fadeOutAnimation ease 10s;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadeOutAnimation {
+  0% {
+    opacity: 0;
+    transition: 10s;
+    display: none;
+
+  }
+}
